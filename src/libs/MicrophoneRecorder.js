@@ -69,7 +69,6 @@ export class MicrophoneRecorder {
           mediaRecorder.bufferSize = mediaOptions.bufferSize;
           mediaRecorder.sampleRate = mediaOptions.sampleRate;
           mediaRecorder.recorderType = StereoAudioRecorder;
-          mediaRecorder.audioChannels = 1;
           if (onStartCallback) {
             onStartCallback();
           }
